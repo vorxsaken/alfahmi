@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .flex-center {
+    @apply flex justify-center items-center gap-4
+  }
+
+  .flex-start {
+    @apply flex justify-start items-start
+  }
+
+  .flex-end {
+    @apply flex justify-end items-end
+  }
+
+  .flex-between {
+    @apply flex justify-between items-start
+  }
+
+  .title {
+    @apply text-2xl font-extrabold
+  }
+
+  .subtitle {
+    @apply text-xs font-light
+  }
+  
+  .shadow-bold {
+    box-shadow: -10px -10px 0px black;
+    background-color: white;
+    border: 2px solid black;
+  }
+
+  .shadow-bold-lite {
+    box-shadow: -5px -5px 0px black;
+    background-color: white;
+    border: 2px solid black;
+  }
+
+  .custom-scrollbar {
+    scrollbar-color: #212121 #e8e8e8;
+    scrollbar-width: thin;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #e8e8e8;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #212121;
+    width: 10px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #434343;
+  }
+
+}
