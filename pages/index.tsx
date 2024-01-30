@@ -16,7 +16,7 @@ const Home: NextPageWithLayout<{ projects: ProjectsType[] }> = ({ projects }) =>
 
   useEffect(() => {
     const typedIntro = new Typed(intro.current, {
-      strings: ['frontend dev', 'long life learner', 'overthinker', 'certified human', ''],
+      strings: ['frontend dev', 'fullstack dev', 'long life learner', 'overthinker', 'certified human', ''],
       typeSpeed: 100,
       backSpeed: 50,
       loop: true,
@@ -24,7 +24,7 @@ const Home: NextPageWithLayout<{ projects: ProjectsType[] }> = ({ projects }) =>
     })
 
     const typedAbout = new Typed(about.current, {
-      strings: [' cat about-me.txt^800\n<br/><br/>`Im a frontend developer whos passionate about creating engaging and user-friendly web experiences. My journey in web development began with a curious exploration of HTML and CSS, and Ive been hooked ever since. While I dont have all the answers, Im always eager to learn and improve, and I find great satisfaction in solving design and coding I believe in the power of collaboration and am grateful for the opportunity to work with talented designers and developers who continuously inspire me to grow.`'],
+      strings: [' cat about-me.txt^800\n<br/><br/>`Im a fullstack developer whos passionate about creating engaging and user-friendly web experiences. My journey in web development began with a curious exploration of HTML and CSS, and Ive been hooked ever since. While I dont have all the answers, Im always eager to learn and improve, and I find great satisfaction in solving design and coding I believe in the power of collaboration and am grateful for the opportunity to work with talented designers and developers who continuously inspire me to grow.`'],
       typeSpeed: 50,
       startDelay: 800,
       cursorChar: '_',
