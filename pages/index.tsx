@@ -10,7 +10,7 @@ import Typed from "typed.js";
 const Home: NextPageWithLayout<{ projects: ProjectsType[] }> = ({ projects }) => {
   const skillsString = 'nextjs vuejs javascript typescript figma reactjs mongodb ms-office tailwindcss shadcn vuetify googling';
   const linksArray = ['nextjs.org', 'vuejs.org', 'developer.mozilla.org/en-US/docs/Web/JavaScript', 'typescriptlang.org', 'figma.com', 'react.dev',
-    'mongodb.com', 'office.com', 'tailwindcss.com', 'ui.shadcn.com', 'vuetifyjs.com', 'google.com'];
+    'mongodb.com', 'office.com', 'tailwindcss.com', 'ui.shadcn.com', 'vuetifyjs.com', 'google.com', 'nodeJs', 'sql'];
   const intro = useRef(null);
   const about = useRef(null);
 
